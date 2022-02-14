@@ -62,7 +62,7 @@ label {
     color: #005729;
 }
 
-button[type=submit] {
+button {
     width: 10%;
     background-color: #005729;
     color: white;
@@ -73,7 +73,7 @@ button[type=submit] {
     cursor: pointer;
 }
 
-button[type=submit]:hover {
+button:hover {
     background-color: #B99BE2;
 }
 button[type=reset] {
