@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Calibri Light", sans-serif;
+}
+
+html {
+    background-color: #B99BE2; /* purple */
+}
+
+body {
+    font-family: "Calibri Light", sans-serif;
+    margin: auto;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+header {
+    font-family: "Calibri Light", "Courier New", sans-serif;
+    background-color: #CFECE1;  /* light green */
+    width: auto;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #B99BE2;
+    font-size: 20px;
+}
+
+/* me */
+
+.card-deck{
+    display: inline-block;
+    width: 90%;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.card{
+    display: inline-block;
+    font-size: 23px;
+    text-align: left;
+    color:#B99BE2;
+    text-decoration: none;
+    list-style-type: none;
+    border-color: #ffffff;
+}
+
+/* form */
+input[type=text] {
+    width: 50%;
+    padding: 10px;
+    border: 3px solid #B99BE2;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 7px;
+}
+
+label {
+    font-size: 30px;
+    color: #005729;
+}
+
+button[type=submit] {
+    width: 10%;
+    background-color: #005729;
+    color: white;
+    padding: 8px;
+    margin: 13px 32px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background-color: #B99BE2;
+}
+button[type=reset] {
+    width: 10%;
+    background-color: #005729;
+    color: white;
+    padding: 8px;
+    margin: 13px 32px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=reset]:hover {
+    background-color: #B99BE2;
+}
+
+/* Footer */
+footer {
+    background-color: #B99BE2;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #CFECE1;
+    height: 50px;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+    overflow: hidden;
+    clear: both;
+}
+
+footer p {
+    width: auto;
+    font-size: 15px;
+    text-align: left;
+}
